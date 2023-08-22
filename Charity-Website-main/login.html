@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="bg-img">
+        <div class="content">
+            <header>Login </header>
+            <form action="#">
+                <div class="field">
+                    <span Class="user"></span>
+                    <input type="text" id="email" required placeholder="Email or Phone" >
+                </div>
+                <div class="field space">
+                    <span Class="password"></span>
+                    <input type="password" id="password" required placeholder="password">
+                </div>
+                <div class="pass">
+                    <a href="#">Forget Password?</a>
+                </div>
+                <div class="submit">
+                    <!-- <input type="submit" value="LOGIN">
+                    <a href="about.html"></a> -->
+                    <button class="submit" value="LOGIN" id="login"
+                onclick="window.location.href = 'about.html';">
+                Login
+                </button>
+                <!-- <p><a href="about.html" class="btn btn-white px-3 py-2 mt-2"> Login </a></p> -->
+                </div>
+                <br>
+            </form>
+            <!-- <p>Don't have account?</p>  -->
+            <div class="link">
+                Don't have account? 
+                <a href="register.html">Signup now</a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./loginauthentication (2).js"></script>
+</body>
+</html>
